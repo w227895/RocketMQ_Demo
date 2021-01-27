@@ -8,8 +8,18 @@
     <artifactId>RocketMQ_Demo</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.RELEASE</version>
+    </parent>
     <modules>
         <module>rocketmq_demo</module>
+        <module>springboot-rocketmq-producer</module>
+        <module>springboot-rocketmq-consumer</module>
+        <module>springboot-dubbo-interface</module>
+        <module>springboot-dubbo-consumer</module>
+        <module>springboot-dubbo-producer</module>
     </modules>
 
 
